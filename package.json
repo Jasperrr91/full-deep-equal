@@ -1,0 +1,34 @@
+{
+  "name": "full-deep-equal",
+  "version": "0.0.1",
+  "description": "Deep Equal with support for unordered arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasperrr91/full-deep-equal.git"
+  },
+  "keywords": [
+    "equal",
+    "deep-equal",
+    "compare"
+  ],
+  "author": {
+    "name": "Jasper van der Stoop",
+    "email": "jasper@vanderstoop.nl",
+    "url": "https://github.com/jasperrr91"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jasperrr91/full-deep-equal/issues"
+  },
+  "homepage": "https://github.com/Jasperrr91/full-deep-equal#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "jest": "^25.1.0"
+  }
+}
