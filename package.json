@@ -2,10 +2,15 @@
   "name": "full-deep-equal",
   "version": "0.0.1",
   "description": "Deep Equal with support for unordered arrays",
-  "main": "index.js",
+  "main": "dist/equal.js",
   "scripts": {
+    "build": "babel src -s -d dist",
+    "release": "npm run-script build && np",
     "test": "jest"
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jasperrr91/full-deep-equal.git"
@@ -27,8 +32,13 @@
   "homepage": "https://github.com/Jasperrr91/full-deep-equal#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
     "jest": "^25.1.0"
   }
 }
